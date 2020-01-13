@@ -21,7 +21,6 @@ module.exports = {
     [require.resolve('@babel/preset-env'), envConfig],
     require.resolve('@babel/preset-flow'),
     require.resolve('@babel/preset-react'),
-    require.resolve('@babel/preset-typescript'),
   ],
   env: {
     test: {

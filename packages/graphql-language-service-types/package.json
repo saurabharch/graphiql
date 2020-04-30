@@ -27,9 +27,15 @@
     "graphql": "^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0"
   },
   "dependencies": {
-    "graphql-config": "3.0.0-alpha.17"
+    "graphql-config": "3.0.0-alpha.17",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "vscode-languageserver-types": "3.15.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

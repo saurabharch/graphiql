@@ -30,6 +30,12 @@
     "graphql-config": "3.0.0-alpha.17",
     "graphql-language-service-parser": "^1.5.3-alpha.1",
     "graphql-language-service-types": "^1.6.0-alpha.1",
-    "graphql-language-service-utils": "^2.4.0-alpha.1"
-  }
+    "graphql-language-service-utils": "^2.4.0-alpha.1",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

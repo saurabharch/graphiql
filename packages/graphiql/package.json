@@ -39,7 +39,9 @@
     "cypress-open": "yarn e2e-server 'cypress open'",
     "e2e": "yarn e2e-server 'cypress run'",
     "e2e-server": "start-server-and-test 'cross-env PORT=8080 node test/e2e-server' 'http-get://localhost:8080/graphql?query={test { id }}'",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@emotion/core": "^10.0.22",
@@ -50,7 +52,8 @@
     "entities": "^2.0.0",
     "markdown-it": "^10.0.0",
     "regenerator-runtime": "^0.13.3",
-    "theme-ui": "^0.2.52"
+    "theme-ui": "^0.2.52",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "graphql": "^0.12.0 || ^0.13.0 || ^14.0.0",
@@ -98,5 +101,6 @@
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
-  }
+  },
+  "snyk": true
 }

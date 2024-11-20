@@ -110,7 +110,7 @@
     "concurrently": "^7.0.0",
     "copy": "^0.3.2",
     "cspell": "^5.15.2",
-    "eslint": "^9.7.0",
+    "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-cypress": "^3.4.0",

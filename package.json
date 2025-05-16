@@ -128,7 +128,7 @@
     "husky": "^4.2.3",
     "jest": "^27.5.1",
     "js-green-licenses": "4.0.0",
-    "lint-staged": "^10.1.2",
+    "lint-staged": "^16.0.0",
     "mkdirp": "^1.0.4",
     "patch-package": "^7.0.2",
     "postinstall-postinstall": "^2.1.0",

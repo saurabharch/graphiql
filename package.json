@@ -123,7 +123,7 @@
     "eslint-plugin-sonar": "^0.14.1",
     "eslint-plugin-sonarjs": "^1.0.4",
     "eslint-plugin-unicorn": "^55.0.0",
-    "execa": "^7.1.1",
+    "execa": "^9.6.0",
     "fetch-mock": "6.5.2",
     "husky": "^4.2.3",
     "jest": "^27.5.1",

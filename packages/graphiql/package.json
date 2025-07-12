@@ -47,7 +47,7 @@
     "webpack": "webpack-cli --config resources/webpack.config.js"
   },
   "dependencies": {
-    "@graphiql/react": "^0.26.2"
+    "@graphiql/react": "^0.35.0"
   },
   "peerDependencies": {
     "graphql": "^16.0.0",

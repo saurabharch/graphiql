@@ -120,7 +120,7 @@
     "eslint-plugin-promise": "^7.0.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc-76002254-20240724",
-    "eslint-plugin-sonar": "^0.14.1",
+    "eslint-plugin-sonar": "^0.14.2",
     "eslint-plugin-sonarjs": "^1.0.4",
     "eslint-plugin-unicorn": "^55.0.0",
     "execa": "^7.1.1",

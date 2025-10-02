@@ -130,7 +130,7 @@
     "js-green-licenses": "4.0.0",
     "lint-staged": "^10.1.2",
     "mkdirp": "^1.0.4",
-    "patch-package": "^7.0.2",
+    "patch-package": "^8.0.1",
     "postinstall-postinstall": "^2.1.0",
     "prettier": "3.3.2",
     "rimraf": "^3.0.2",
